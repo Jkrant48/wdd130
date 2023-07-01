@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@200&family=Roboto:wght@300&family=Sacramento&family=Source+Sans+Pro&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+    font-family:"source sans pro","Lato", "Helvetica";
+}
+
+.logo {
+    width: 150px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+header {
+    background-color:#242F40;
+    display: grid;
+    grid-template-columns: 15% auto;
+
+}
+
+nav{
+    display: flex;
+    align-self: last baseline;
+    justify-content: right;
+}
+
+nav a {
+    text-align: right;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 30px;
+    font-size: 1.3em;
+}
+
+nav a:hover {
+    background-color:  #396E94;
+
+}
+
+footer {
+    background-color: #242F40 ;
+    color: #fff5eb;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#hero-msg h4, #hero-msg h1 {
+    text-align: center;
+}
+
+.home-title {
+    color: #FFFFFF;
+    font-size: 4em;
+    font-family: "sacramento", "Roboto";
+}
+
+#hero-msg h4 {
+    color: #010811 ;
+    font-style: "Roboto";
+}
+
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+.Button-box {
+    text-align: center;
+}
+
+.book, .Join {
+    background-color: #023047;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.book:hover, .Join:hover {
+    background-color:  #396E94;
+}
+
+main {
+    text-align: center;
+}
+
+main h1 {
+    font-size: 4em;
+    font-family: "sacramento", "Roboto";
+    padding: 5px;
+}
+
+#welcome {
+    display: grid;
+    grid-template: 10% 90%/ 50% 50%;
+}
+
+#background {
+    height: 540px;
+    background-color: #CCA43B;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+#welcome h3, #welcome p {
+    font-family: "Lato","source sans pro","Helvetica";
+    font-size: 1.5em;  
+}
+
+#welcome h3 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+#welcome p {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: left;
+    padding: 30px;
+}
+
+#welcome img {
+    width: 95%;
+    grid-column: 2/3;
+    grid-row: 1/3;
+    padding-top: 31px;
+}
+
+#end {
+    display: grid;
+    grid-template: 80% 20% / 1fr 1fr;
+}
+
+.ending img {
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.msg {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    color: #FFFFFF;
+}
+
+#messagebckground {
+    height: 250px;
+    background-color: #396E94;
+    grid-column: 2/3;
+    grid-row: 1/3;
+    
+}
+
+
+            

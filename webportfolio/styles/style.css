@@ -1,0 +1,45 @@
+
+
+
+#hero{
+    background-color: #011936;
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 8%;
+    margin-top: -10px;
+    
+}
+
+nav .menu-icon{
+    width: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+nav .logo{
+    width: 180px;
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
